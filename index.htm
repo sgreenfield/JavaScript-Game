@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Game</title>
+        <script type="text/javascript" src="scripts/jquery-1.5.1.js"></script>
+        <script type="text/javascript" src="scripts/jquery.gamequery-0.5.1.js"></script>
+        <script type="text/javascript" src="scripts/mygame.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                mygame.init();
+            });
+        </script>
+    </head>
+    <body>
+        <div id="thegame" style="width: 700px; height: 250px; background: black;">
+            <div id="welcomeScreen">
+                <div style="position: absolute; text-align: center; top: 40%; width: 100%;">
+                    <div id="loadingBar" style="height: 15px; margin: auto; position: relative; width: 0px; background: red;"></div><br />
+                    <div style="font-size:44px; font-family:sans-serif; color:white;"><a style="cursor: pointer;" id="startbutton">Start Game</a></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
